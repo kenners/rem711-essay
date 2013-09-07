@@ -9,6 +9,11 @@
 \usepackage[UKenglish]{isodate}
 \usepackage{graphicx}
 
+% Pretty table stuff
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage{booktabs}
+
 \usepackage[unicode]{hyperref}
 \hypersetup{pdfauthor={Kenrick Turner}, pdftitle={Do cGMP-specific phosphodiesterase type 5 inhibitors have a role in the prophylaxis or treatment of High Altitude Pulmonary Oedema?}, pdfsubject={High Altitude Pulmonary Oedema},pdfkeywords={HAPE, PDE5, inhibitors}}
 
@@ -18,9 +23,9 @@
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
 \usepackage{microtype}
 
-\title{Do cGMP-specific phosphodiesterase type 5 inhibitors have a role in the prophylaxis or treatment of High Altitude Pulmonary Oedema?}
+\title{A critical appraisal of the role of cGMP-specific phosphodiesterase type 5 inhibitors in the prophylaxis and treatment of High Altitude Pulmonary Oedema}
 \author{REM711: Scientific Essay}
-\date{Student: 10463823 \\ Word Count: 2394}
+\date{Student: 10463823 \\ Word Count: 2462}
 
 \linespread{1.3}
 
@@ -50,9 +55,9 @@ cGMP-specific phosphodiesterase type 5 (PDE5) presents an attractive therapeutic
 
 PDE5 inhibitors, such as sildenafil and tadalafil -- well known for their role in erectile dysfunction -- have been in clinical use for over a decade. More recently, they have begun to be used in the treatment of chronic pulmonary hypertension.\cite{NationalPulmonaryHypertensionCentresoftheUKandIreland:2008jh}
 
-\section*{Methodology}
+\section*{Methods}
 
-A targeted search of the literature was conducted during June 2013 using the MEDLINE database. MEDLINE was initially searched using Medical Subject Headings (MeSH) keywords. However the closest term for HAPE was the supplemental concept ``Pulmonary edema of mountaineers [Supplementary Concept]'' and frequently was not associated with relevent papers. Hence, MeSH keywords were abandoned, and an alternative strategy was employed by searching directly for the terms ``High Altitude Pulmonary Edema''[\emph{sic}] and ``Phosphodiesterase 5 Inhibitors''. To further broaden the search scope, the term ``High Altitude Pulmonary Hypertension'' was used synonymously for HAPE.
+This literature review was guided by Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) methods.\cite{Moher:2009ew} A targeted search of the literature was conducted during June 2013 using the MEDLINE database. MEDLINE was initially searched using Medical Subject Headings (MeSH) keywords. However the closest term for HAPE was the supplemental concept ``Pulmonary edema of mountaineers [Supplementary Concept]'' and frequently was not associated with relevent papers. Hence, MeSH keywords were abandoned, and an alternative strategy was employed by searching directly for the terms ``High Altitude Pulmonary Edema''[\emph{sic}] and ``Phosphodiesterase 5 Inhibitors''. To further broaden the search scope, the term ``High Altitude Pulmonary Hypertension'' was used synonymously for HAPE.
 
 Additional primary research papers were identified through sources cited in recent meta-analyses and literature reviews in significant journals in the field.
 
@@ -60,7 +65,36 @@ Consensus guidelines, primary research articles and meta-analyses were included,
 
 \section*{Results}
 
-A total of sixteen randomised double-blinded placebo-controlled trials, one open-label trial, one meta-analysis, and two recent consensus statements were identified using the search strategy described. Four studies were discarded as they were irrelevant to HAPE or PAH.
+A total of sixteen randomised double-blinded placebo-controlled trials, one open-label trial, one meta-analysis, and two recent consensus statements were identified using the search strategy described (Figure~\ref{fig:prisma}).
+
+\begin{figure}[!hb]
+\centering
+\includegraphics[scale=.7]{prisma.pdf}
+\caption{PRISMA diagram of search results\cite{Moher:2009ew}}
+\label{fig:prisma}
+\end{figure}
+
+Four studies were discarded as they were irrelevant to topic of HAPE or PAH (inappropriately indexed by MEDLINE), and another was excluded as it was an open label study. A further three studies transpired to be duplicates of previously identified studies and were likewise excluded. Studies included for qualitative synthesis are presented in the table below.
+
+\begin{longtabu} to\linewidth{X[l] X[2,l] X[l]}
+    \toprule
+    \rowfont\bfseries Authors & Study & PubMed ID \\
+    \midrule
+    \endhead
+    Luks \emph{et al.}\cite{Luks:2010ht} & Wilderness Medical Society consensus guidelines for the prevention and treatment of acute altitude illness & 20591379 \\
+    Kjaergaard \emph{et al.}\cite{Kjaergaard:2007hp} & Right ventricular function with hypoxic exercise: effects of sildenafil & 17909844 \\
+    Bates \emph{et al.}\cite{Bates:2011du} & Sildenafil Citrate for the Prevention of High Altitude Hypoxic Pulmonary Hypertension: Double Blind, Randomized, Placebo-Controlled Trial & 21962063 \\
+    Maggiorini \emph{et al.}\cite{Maggiorini:2006kz} & Both tadalafil and dexamethasone may reduce the incidence of high-altitude pulmonary edema: a randomized trial & 17015867 \\
+    National Working Group\cite{NationalPulmonaryHypertensionCentresoftheUKandIreland:2008jh} & Consensus statement on the management of pulmonary hypertension in clinical practice in the UK and Ireland & 18308974 \\
+    Richalet \emph{et al.}\cite{Richalet:2005el} & Sildenafil inhibits altitude-induced hypoxemia and pulmonary hypertension & 15516532 \\
+    Jin \emph{et al.}\cite{Jin:2010fc} & Phosphodiesterase Type 5 Inhibitors for High-Altitude Pulmonary Hypertension & 20225909 \\
+    Zhao \emph{et al.}\cite{Zhao:2001kj} & Sildenafil inhibits hypoxia-induced pulmonary hypertension & 11468204 \\
+    Ghofrani \emph{et al.}\cite{Ghofrani:2004gp} & Sildenafil increased exercise capacity during hypoxia at low altitudes and at Mount Everest base camp: a randomized, double-blind, placebo-controlled crossover trial & 15289213 \\
+    Faoro \emph{et al.}\cite{Faoro:2007ji} & Effects of sildenafil on exercise capacity in hypoxic normal subjects & 17584010 \\
+    Fischler \emph{et al.}\cite{Fischler:2009ce} & Dexamethasone but not tadalafil improves exercise capacity in adults prone to high-altitude pulmonary edema & 19520908 \\
+    Reichenberger \emph{et al.}\cite{Reichenberger:2007bw} & Effect of sildenafil on hypoxia-induced changes in pulmonary circulation and right ventricular function & 17851140 \\
+    \bottomrule
+\end{longtabu}
 
 \section*{Discussion}
 
@@ -88,11 +122,11 @@ Whilst both these studies reported encouraging results, both were small RCTs (n=
 
 Several studies have investigated the effects of PDE5 inhibitors on healthy subjects under hypobaric hypoxic conditions, and in general support the trend in attenuating the hypoxic-induced rise in sPAP found under normobaria.
 
-Richalet \emph{et al.} took twelve subjects to 4,350m over 24 hours as part of a double-blind, placebo-controlled randomised controlled trial (RCT) and administered regular sildenafil \emph{after} arrival at altitude. Whilst observing the ``normal'' rise in sPAP associated with hypoxia, within 48 hours of commencing sildenafil this rise had been abolished, whilst it persisted within the placebo group.\cite{Richalet:2005el}
+Richalet \emph{et al.} took twelve subjects to 4,350m over 24 hours as part of a double-blind randomised controlled trial (RCT) and administered regular sildenafil \emph{after} arrival at altitude. Whilst observing the ``normal'' rise in sPAP associated with hypoxia, within 48 hours of commencing sildenafil this rise had been abolished, whilst it persisted within the placebo group.\cite{Richalet:2005el}
 
-Ghofrani \emph{et al.}\cite{Ghofrani:2004gp} (n=14) and Reichenberger \emph{et al.}\cite{Reichenberger:2007bw} (n=28) conducted similar crossover, double-blind, placebo-controlled RCTs in 2004 and 2007 respectively. Using a slower ascent profile, they took subjects to 5,245m over seven days and administered a single 50mg dose of sildenafil shortly before measuring sPAP. They both reported a statistically significant reduction of 5mmHg and 7mmHg in sPAP respectively when compared to placebo.
+Ghofrani \emph{et al.}\cite{Ghofrani:2004gp} (n=14) and Reichenberger \emph{et al.}\cite{Reichenberger:2007bw} (n=28) conducted similar crossover, double-blind RCTs in 2004 and 2007 respectively. Using a slower ascent profile, they took subjects to 5,245m over seven days and administered a single 50mg dose of sildenafil shortly before measuring sPAP. They both reported a statistically significant reduction of 5mmHg and 7mmHg in sPAP respectively when compared to placebo.
 
-Intriguingly, Faoro \emph{et al.} conducted a crossover, double-blind, placebo-controlled RCT (n=28) in 2007 that was unable to corroborate Ghofrani's and Reichenberger's findings. Again taking normal subjects to 5,000m over 10 days, and similarly administering a single 50mg dose of sildenafil shortly before testing whilst at altitude, no significant difference was found between placebo and sildenafil groups.\cite{Faoro:2007ji} However, when testing the same subjects under \emph{normobaric} hypoxia, a statistically significant reduction of 5mmHg in sPAP was observed in the sildenafil group.\cite{Faoro:2007ji}
+Intriguingly, Faoro \emph{et al.} conducted a crossover, double-blind RCT (n=28) in 2007 that was unable to corroborate Ghofrani's and Reichenberger's findings. Again taking normal subjects to 5,000m over 10 days, and similarly administering a single 50mg dose of sildenafil shortly before testing whilst at altitude, no significant difference was found between placebo and sildenafil groups.\cite{Faoro:2007ji} However, when testing the same subjects under \emph{normobaric} hypoxia, a statistically significant reduction of 5mmHg in sPAP was observed in the sildenafil group.\cite{Faoro:2007ji}
 
 All four of these studies were well-conducted RCTs, albeit relatively small. Unsurprisingly given their small numbers of healthy subjects, no cases of HAPE were recorded. The studies by Ghofrani \emph{et al.},\cite{Ghofrani:2004gp} Reichenberger \emph{et al.},\cite{Reichenberger:2007bw} and Faoro \emph{et al.}\cite{Faoro:2007ji} could be questioned in their value, given their relatively slow ascent profile (7-10 days) some degree of acclimatisation would have almost certainly occurred, and their regimen of a single dose of sildenafil shortly before testing is artificial and unlikely to be representative as to how it would be used prophylactically.
 
@@ -102,7 +136,7 @@ Richalet \emph{et al.}'s study\cite{Richalet:2005el} used the regimen of sildena
 
 As described in the literature, the three determinants for HAPE are altitude, speed of ascent, and individual susceptibility.\cite{Bartsch:2001kc,Bartsch:2002cg,Dehnert:2005ca} Of these, individual factors appear to be the strongest predictor of HAPE,\cite{Bartsch:2002cg} introducing the concept that there is a population of ``HAPE-susceptible'' individuals.\cite{Bartsch:2001kc,Dehnert:2005ca}. Evidence from recent studies suggests that for HAPE-susceptible individuals, PDE5 inhibitors may confer a benefit.
 
-In 2006, Maggiorini \emph{et al.} conducted a double-blinded, placebo-controlled RCT comparing tadalafil against dexamethasone, and placebo, in preventing HAPE in susceptible individuals.\cite{Maggiorini:2006kz} The authors recruited subjects who had at least one previous episode of HAPE, and after commencing prophylactic medication 24 hours before ascent, took subjects to 4,559m for two days, ascending over 24 hours. Notably, this was the only RCT in the literature that used HAPE (diagnosed by either the Lake Louise clinical criteria\cite{Sutton:1991wx} or chest radiograph) as a primary endpoint.
+In 2006, Maggiorini \emph{et al.} conducted a double-blinded RCT comparing tadalafil against dexamethasone, and placebo, in preventing HAPE in susceptible individuals.\cite{Maggiorini:2006kz} The authors recruited subjects who had at least one previous episode of HAPE, and after commencing prophylactic medication 24 hours before ascent, took subjects to 4,559m for two days, ascending over 24 hours. Notably, this was the only RCT in the literature that used HAPE (diagnosed by either the Lake Louise clinical criteria\cite{Sutton:1991wx} or chest radiograph) as a primary endpoint.
 
 Whilst in the placebo group, seven of nine subjects (78\%) developed HAPE, only one of eight subjects (13\%) in the tadalafil group was likewise affected. The rise in sPAP (measured with echocardiography) was also significantly blunted (p<0.05), supporting this trend: the mean rise in sPAP in the placebo group was 28mmHg, compared to 13mmHg in the tadalafil group.\cite{Maggiorini:2006kz}
 
@@ -114,7 +148,7 @@ However, both trials had small study arms, and Maggiorini \emph{et al.} note tha
 
 \subsection*{Prophylaxis in normal individuals}
 
-Whilst no studies were identified that used HAPE as an endpoint in normal individuals, a recent study by Bates \emph{et al.} used elevated PAP as a surrogate endpoint.\cite{Bates:2011du} A relatively large double-blind, placebo-controlled RCT with 62 subjects, participants started taking regular sildenafil or placebo at sea level, ascending over four days to spend nine days at 5,200m.
+Whilst no studies were identified that used HAPE as an endpoint in normal individuals, a recent study by Bates \emph{et al.} used elevated PAP as a surrogate endpoint.\cite{Bates:2011du} A relatively large double-blind RCT with 62 subjects, participants started taking regular sildenafil or placebo at sea level, ascending over four days to spend nine days at 5,200m.
 
 Despite the large study, no statistically significant difference was found between placebo and sildenafil groups in sPAP, and no subjects developed HAPE. One could speculate whether a tachyphylactic phenomenon could be responsible for the discrepancy between this and other published trials, as this study was the longest to date, and sildenafil was started well in advance of ascent.
 
@@ -134,13 +168,13 @@ Like any drug, PDE5 inhibitors are not without risk. Concerningly, a common side
 
 \section*{Conclusion}
 
-There is a growing body of evidence from animal models, \emph{in vivo} human studies looking at surrogate endpoints, and RCTs that PDE5 inhibitors not only attenuate the rise in sPAP associated with global hypoxia at altitude, but also reduce the incidence of HAPE in susceptible individuals.
+There is a growing body of evidence from animal models, \emph{in vivo} human studies looking at surrogate endpoints, and RCTs that PDE5 inhibitors not only attenuate the rise in sPAP associated with global hypoxia at altitude, but also reduce the incidence of HAPE in susceptible individuals. However, the wide variation in regimes and doses of sildenafil and tadalafil by different studies makes it hard to generalise findings and to deduce rational guidelines suitable for the field.
 
 Intellectually, they make for an attractive treatment for HAPE in place of nifedipine as they should cause less systemic vasodilation and consequently less risk of syncope in a hostile environment.\cite{JointFormularyCommittee:2013tz}
 
-Evidence is currently lacking as to whether they have a role in prophylaxis for the general population, or whether they are effective in the treatment of HAPE. Furthermore, the wide variation in regimes and doses of sildenafil and tadalafil by different studies makes it hard to generalise findings and to deduce rational guidelines suitable for the field.
+Currently, insufficient evidence exists to recommend the routine use of PDE5 inhibitors as HAPE prophylaxis for normal individuals. Their use as prophylaxis by HAPE-susceptible individuals is however supported. One regime supported by the literature is 10mg tadalafil b.d. At present, there is no evidence for the use of PDE5 inhibitors in the treatment of HAPE.
 
-This author submits that insufficient evidence exists to recommend the routine use of PDE5 inhibitors as prophylaxis to normal individuals, but that they should be considered as prophylaxis by HAPE-susceptible individuals. One regime supported by the literature is 10mg tadalafil b.d. At present, there is no role for PDE5 inhibitors in the treatment of HAPE.
+ Additional research is needed to better define the role, if any, of PDE5 inhibitors in the treatment of patients with HAPE. This research question is ideally suited to a multi-center, crossover, double-blinded, randomised controlled trial with large study arms (n >200) of normal healthy individuals.
 
 \bibliographystyle{vancouver}
 \bibliography{hape-essay}
